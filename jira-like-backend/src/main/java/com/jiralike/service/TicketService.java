@@ -69,8 +69,8 @@ public class TicketService {
 
         ticket.setTitle(dto.getTitle());
         ticket.setDescription(dto.getDescription());
-        if (dto.getPriority() != null) ticket.setPriority(dto.getPriority());
-        if (dto.getTicketType() != null) ticket.setTicketType(dto.getTicketType());
+        ticket.setPriority(dto.getPriority());
+        ticket.setTicketType(dto.getTicketType());
         ticket.setStoryPoints(dto.getStoryPoints());
         ticket.setDueDate(dto.getDueDate());
 
