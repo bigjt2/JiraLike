@@ -1,0 +1,16 @@
+.kanban-board {
+  display: flex;
+  gap: 16px;
+  padding: 0 24px 24px;
+  overflow-x: auto;
+  flex: 1;
+  align-items: flex-start;
+  min-height: 0;
+}
+
+.drag-overlay {
+  opacity: 0.9;
+  transform: rotate(2deg);
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+}
